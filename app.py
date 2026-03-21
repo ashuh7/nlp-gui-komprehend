@@ -30,6 +30,24 @@ class NLPApp:
         self.email_input = Entry(self.root,width=35)
         self.email_input.pack(pady=(5,10),ipady=3)
 
+        label2 = Label(self.root,text='Enter Passsword')
+        label2.pack(pady=(10,10))
+
+        self.password_input = Entry(self.root,width=35)
+        self.password_input.pack(pady=(5,10),ipady=3)   
+
+        # to add Login Button ->  we use Button() class
+        login_btn = Button(self.root, text='Login',width=30,height=2)
+        login_btn.pack(pady=(10,10))
+
+        label3 = Label(self.root,text='Not a member?')
+        label3.pack(pady=(20,10))
+
+        redirect_btn = Button(self.root, text='Register now')
+        redirect_btn.pack(pady=(10,10))
+
+
+
 
 
 
